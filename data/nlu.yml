@@ -82,6 +82,8 @@ nlu:
     - are you a robot?
     - are you a human?
     - you are not a human,right?
+    - are you a robot
 - intent: ask_weather
   examples: |
     - how about weathe
+    - what's the weather

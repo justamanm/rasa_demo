@@ -4,12 +4,12 @@ pipeline:
 - name: CountVectorsFeaturizer
 - name: DucklingHTTPExtractor
 - name: DIETClassifier
-  epochs: 1
+  epochs: 100
 - name: ResponseSelector
-  epochs: 2
+  epochs: 100
 policies:
 - name: MemoizationPolicy
 - name: TEDPolicy
   max_history: 3
-  epochs: 2
+  epochs: 100
 - name: RulePolicy
