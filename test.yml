@@ -1,40 +1,17 @@
-stories:
-- story: My story
-  steps:
-  - intent: greet
-  - action: utter_greet
-
-rules:
-- rule: My rule
-  steps:
-  - intent: greet
-  - action: utter_greet
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-- greet
-
-nlu:
-- intent: greet
-  examples: |
-   - hi
-   - hello
-- intent: bye
-  examples: |
-   - goodbye
-   - bye
-
+- greet:
+    use_entities: true
+entities: []
+slots: {}
 responses:
   utter_greet:
   - text: Hi
-
-language: en
-
-polices:
-   - name: RulePolicy
-
-pipeline:
-   - name: WhitespaceTokenizer
-   - name: CountVectorsFeaturizer
-   - name: DucklingHTTPExtractor
-   - name: DIETClassifier
-     epochs: 1
+actions: []
+forms: {}
+e2e_actions: []
