@@ -50,6 +50,7 @@ nlu:
     - no way
     - not really
     - no no
+    - i don't want to
 - intent: mood_great
   examples: |
     - perfect
@@ -102,3 +103,4 @@ nlu:
     - how about weather
     - hwo about weathe
     - do you know the weather tomorrow
+    - wha the weathe
