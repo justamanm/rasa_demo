@@ -68,6 +68,7 @@ nlu:
     - so perfect
     - i feel greate
     - i feel good
+    - i'm happy
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -85,12 +86,15 @@ nlu:
     - so saad
     - so sad
     - i'm sad
+    - i feel sad
+    - i'm sad'
 - intent: bot_challenge
   examples: |
     - are you a robot?
     - are you a human?
     - you are not a human,right?
     - are you a robot
+    - you are a human?
 - intent: ask_weather
   examples: |
     - how about weathe
