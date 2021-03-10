@@ -19,6 +19,8 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
+- ask_weather:
+    use_entities: true
 entities: []
 slots: {}
 responses:
