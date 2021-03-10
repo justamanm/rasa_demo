@@ -18,6 +18,7 @@ nlu:
     - hi there
     - what's up
     - good morn
+    - hello,there
 - intent: goodbye
   examples: |
     - good afternoon
@@ -89,6 +90,7 @@ nlu:
     - i'm sad
     - i feel sad
     - i'm sad'
+    - i feel bad
 - intent: bot_challenge
   examples: |
     - are you a robot?
