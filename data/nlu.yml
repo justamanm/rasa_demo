@@ -112,3 +112,4 @@ nlu:
 - intent: ask_name
   examples: |
     - what's your name?
+    - what' s your name?
