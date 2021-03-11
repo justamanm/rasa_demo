@@ -113,3 +113,7 @@ nlu:
   examples: |
     - what's your name?
     - what' s your name?
+    - who are you?
+    - your name?
+    - do you have a name?
+    - hi, what's your name
