@@ -1,16 +1,16 @@
 version: "2.0"
-
 stories:
-
 - story: happy path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: goodbye
   - action: utter_goodbye
-
+- story: ask_name
+  steps:
+  - intent: ask_name
+  - action: utter_name
 rules:
-
 - rule: Say no
   steps:
   - intent: deny
