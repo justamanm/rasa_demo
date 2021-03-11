@@ -21,7 +21,10 @@ intents:
     use_entities: true
 - ask_weather:
     use_entities: true
-entities: []
+- ask_name:
+    use_entities: true
+entities:
+- city
 slots: {}
 responses:
   utter_greet:
@@ -39,6 +42,8 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_deny:
   - text: ok,it's not.
+  utter_name:
+  - text: my name is rasax.
 actions: []
 forms: {}
 e2e_actions: []

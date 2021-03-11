@@ -71,6 +71,7 @@ nlu:
     - i feel greate
     - i feel good
     - i'm happy
+    - i'm good
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -107,3 +108,7 @@ nlu:
     - do you know the weather tomorrow
     - wha the weathe
     - what's weather about [hangzhou](city)?
+    - what's the weathe
+- intent: ask_name
+  examples: |
+    - what's your name?
