@@ -22,6 +22,7 @@ nlu:
     - how are you
     - hi?
     - how are you?
+    - how's it going
 - intent: goodbye
   examples: |
     - cu
@@ -102,6 +103,8 @@ nlu:
     - you are not a human,right?
     - are you a robot
     - you are a human?
+    - are you a rbot
+    - are you a bot
 - intent: ask_weather
   examples: |
     - how about weathe
@@ -122,3 +125,9 @@ nlu:
     - hi, what's your name
     - what's your name
     - what' your name
+- intent: play_song
+  examples: |
+    - play a relaxed song
+    - can you play a song
+    - play a song
+    - play  a song
