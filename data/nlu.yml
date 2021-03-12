@@ -19,6 +19,9 @@ nlu:
     - what's up
     - good morn
     - hello,there
+    - how are you
+    - hi?
+    - how are you?
 - intent: goodbye
   examples: |
     - cu
@@ -71,6 +74,7 @@ nlu:
     - i feel good
     - i'm happy
     - i'm good
+    - i'm fine
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -116,3 +120,5 @@ nlu:
     - your name?
     - do you have a name?
     - hi, what's your name
+    - what's your name
+    - what' your name
